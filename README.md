@@ -10,7 +10,7 @@ The system visualizes elevator movements, hall calls, and passenger destinations
 ![Output image](output_image.png)
 *A snapshot of the terminal for user input and the Pygame window visualizing the state of 3 elevators in a 15-floor building.*
 
------
+
 
 ## ✨ Key Features
 
@@ -20,7 +20,7 @@ The system visualizes elevator movements, hall calls, and passenger destinations
   * **Dynamic Request Handling**: Efficiently manages real-time passenger requests and adapts schedules on the fly.
   * **Proven Performance**: Significantly reduces average waiting time, elevator idle time, and energy waste compared to traditional systems.
 
------
+
 
 ## 🎯 The Problem
 
@@ -31,7 +31,7 @@ Traditional elevator systems are inefficient in modern buildings, leading to:
   * **High Energy Waste**: Unoptimized systems can have up to 70% redundant movements.
   * **Poor Adaptability**: Static algorithms fail to handle unpredictable peak traffic.
 
------
+
 
 ## 🛠️ Our Solution
 
@@ -45,7 +45,7 @@ The algorithm's search is guided by a **heuristic evaluation function** which sc
 
 At each step, the algorithm explores neighboring solutions (e.g., by reordering requests) and moves to the state with the best heuristic score, effectively "climbing the hill" towards an optimal schedule.
 
------
+
 
 ## 💻 Tech Stack
 
@@ -54,7 +54,7 @@ At each step, the algorithm explores neighboring solutions (e.g., by reordering 
   * **Data Structures**: `heapq` (for priority queues)
   * **Concurrency**: `threading`
 
------
+
 
 ## 🔧 Setup and Usage
 
@@ -83,7 +83,7 @@ At each step, the algorithm explores neighboring solutions (e.g., by reordering 
       * Enter a source and destination floor (e.g., `5 12`) to create a request.
       * Watch the simulation in the Pygame window.
 
------
+
 
 ## 📊 Performance Results
 
@@ -97,7 +97,7 @@ Our optimized system shows significant improvements over traditional models.
 | **Request Throughput** | 30 req/10 min | 40 req/10 min | **50 req/10 min** | **↑ 66.67%** |
 | **Unnecessary Reversals**| Frequent | Reduced | **Rare** | **↓ \~90%** |
 
------
+
 
 ## 📜 License
 
